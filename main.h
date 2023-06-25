@@ -3,6 +3,7 @@
 #include <stdarg.h>
 #include <stdio.h>
 
+int writeInt(va_list args);
 int writeChar(va_list args);
 int writeStr(va_list args);
 int writePerc(va_list args);

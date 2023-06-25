@@ -17,6 +17,7 @@ int _printf(const char *format, ...)
 		{"c", writeChar},
 		{"s", writeStr},
 		{"%", writePerc},
+		{"d", writeInt},
 		{NULL, NULL}
 	};
 
